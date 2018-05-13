@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/palevoo/nintai/issues"
   },
-  "homepage": "https://github.com/palevoo/nintai#readme"
+  "homepage": "https://github.com/palevoo/nintai#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
 }
