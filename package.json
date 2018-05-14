@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/palevoo/nintai.git"
   },
+  "bin": {
+    "nintai": "./cli.js"
+  },
   "author": "palevoo",
   "license": "ISC",
   "bugs": {

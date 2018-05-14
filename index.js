@@ -24,6 +24,6 @@ const array3 = array.map((cur, ind) => {
   return res;
 });
 
-exports.printMsg = function() {
+exports.runner = function() {
   console.log(`                           Nintai\n${array3.join('')} Progress: ${daysPast} / 365 Days | ${progressBar}%`);
 }
