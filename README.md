@@ -7,15 +7,15 @@ Simple visualisation node package, to show the current year progress.
 ### Getting started
 
 ```
-npm i -g nintai
-nintai
+  npm i -g nintai
+  nintai
 ```
 
 ### Enjoy
 
 ![Image](image.png)
 
-* *Made with 💚 by:* **palevoo**
+* *Made with* 💚 *by* **[palevoo](https://github.com/palevoo)**
 
 ### Future
 
