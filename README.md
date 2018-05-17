@@ -20,3 +20,4 @@ Simple visualisation node package, to show the current year progress.
 ### Future
 
 * Add argument field to specify custom beginning of the year (e.g your birthday)
+* Config command to set (date, view option, launch option)
