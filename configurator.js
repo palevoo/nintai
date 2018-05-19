@@ -2,23 +2,29 @@ const Configstore = require('configstore');
 const pkg = require('./package.json');
 const inquirer = require('./inquirer.js');
 
+const NOW = new Date();
+const YEAR = NOW.getFullYear();
+const defaultDate = new Date(YEAR, 0, 1);
+
 const conf = new Configstore(pkg.name, {
+  date: defaultDate,
   view: 'day',
-  date: 'default',
   launch: false,
 });
 
-exports.comfy = () => {
-  console.log(conf.get('view'));
+exports.getter = (option) => {
+  return conf.get(option);
 };
 
 exports.setter = (option) => {
-  console.log(option);
-  conf.delete(option.name);
   conf.set(option.name, option.value);
-  // console.log(conf.get(option.name));
 };
 
 exports.configMe = () => {
   inquirer.questionMe();
+}
+
+exports.module = {
+  conf,
+
 }
