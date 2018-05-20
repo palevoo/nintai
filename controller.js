@@ -4,7 +4,6 @@ const percentVisualisation = require("./views/percent.js");
 
 exports.pope = (args, options) => {
   if (args.length === 2) {
-    console.log(options.view);
     if (options.view === "day") {
       dayVisualisation.runner(options.date);
     } else {
